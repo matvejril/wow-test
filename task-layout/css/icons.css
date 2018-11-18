@@ -1,0 +1,17 @@
+.icon-close:before  {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    background: url(../images/icons/icon-close.png) no-repeat center;
+    background-size: contain;
+}
+
+.icon-like:before  {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    background: url(../images/icons/icon-like.png) no-repeat center;
+    background-size: contain;
+}

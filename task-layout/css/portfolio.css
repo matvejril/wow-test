@@ -1,0 +1,337 @@
+.portfolio-hash {
+    display: inline-block;
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+.portfolio-review {
+    position: relative;
+}
+.portfolio-review__view {
+    position: absolute;
+    bottom: -22px;
+    left: -112px;
+    -webkit-box-shadow: -20px 54px 100px 5px rgba(0,0,0,0.23);
+    -moz-box-shadow: -20px 54px 100px 5px rgba(0,0,0,0.23);
+    box-shadow: -20px 54px 100px 5px rgba(0,0,0,0.23);
+}
+.portfolio-review__main {
+    padding: 35px 54px 80px 110px;
+    display: inline-block;
+    background-color: #a48658;
+    box-sizing: border-box;
+}
+.portfolio-review__name {
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.portfolio-review__text {
+    margin-top: 17px;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+}
+
+
+.portfolio {
+}
+.portfolio__close {
+    position: absolute;
+    top: -68px;
+    left: calc(100% - 40px);
+}
+
+/*nina-ricci*/
+.promo {
+    padding: 100px  0 35px 0;
+    background: url("../images/portfolio/nina-ricci/promo-bg.png") no-repeat center;
+    background-size: cover;
+}
+.promo__box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.promo__main {
+    max-width: 580px;
+    margin-left: 10px;
+}
+.promo__title {
+    margin-left: -10px;
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 200px;
+    line-height: 0.9;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.promo__description {
+    margin-top: 40px;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffffff;
+}
+.promo__hash {
+    margin-top: 35px;
+}
+.promo__hash li {
+    margin-left: 15px;
+    display: inline-block;
+}
+.promo__hash li:first-child {
+    margin-left: 0;
+}
+.promo__hash a {
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 20px;
+    color: #00BFFF;
+    text-decoration: none;
+}
+.promo__lang{
+    margin-top: 95px;
+}
+.promo__lang i:before {
+    vertical-align: middle;
+}
+.promo__lang a {
+    margin-left: 20px;
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.promo__phone {
+    position: relative;
+    bottom: -155px;
+    margin: -140px 108px 0 0;
+}
+.promo__phone img {
+    border-style: solid;
+    border-width: 92px 16px 103px 20px;
+    -webkit-border-image: url(../images/phone-border.png) 92 16 103 20 stretch;
+    -o-border-image: url(../images/phone-border.png) 92 16 103 20 stretch;
+    border-image: url(../images/phone-border.png) 92 16 103 20 fill stretch;
+    border-radius: 80px;
+
+    -webkit-box-shadow: 16px 40px 38px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 16px 40px 38px 0px rgba(0,0,0,0.2);
+    box-shadow: 16px 40px 38px 0px rgba(0,0,0,0.2);
+}
+.task {
+    padding: 258px 0 78px 0;
+    background-color: #ffffff;
+}
+.task__main {
+    margin-left: 130px;
+    position: relative;
+    max-width: 580px;
+    z-index: 1;
+}
+.task__main .portfolio-review {
+    margin-top: 50px;
+}
+.task__main .portfolio-review__view {
+    bottom: -22px;
+}
+.task__main .portfolio-review__main {
+    max-width: 510px;
+}
+.task__title {
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 75px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+.task__description {
+    margin-top: 23px;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #4A4A4A;
+}
+.task__view {
+    position: absolute;
+    right: -40px;
+    top: 50px;
+    overflow: hidden;
+}
+.task__view img {
+    margin-right: -169px;
+}
+.task__view .portfolio-hash {
+    position: absolute;
+    right: 18%;
+    bottom: 36px;
+    padding: 20px 66px;
+    color: #ffffff;
+    background-color: #a48658;
+}
+.concept {
+    padding: 254px 0 180px 0;
+    background: url("../images/portfolio/nina-ricci/concept-bg.png") no-repeat center;
+    background-size: cover;
+}
+.concept .portfolio-review {
+    position: absolute;
+    right: 31px;
+    bottom: -231px;
+}
+.concept__main {
+    max-width: 600px;
+    margin-left: 130px;
+}
+.concept__title {
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.concept__description {
+    margin-top: 25px;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 1.65;
+    color: #ffffff;
+}
+.concept__logos {
+    margin-top: 58px;
+}
+
+.concept__logos li {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.concept__logos li:first-child {
+    margin-left: 0;
+}
+.concept .portfolio-review__view {
+    bottom: -57px;
+    left: -164px;
+}
+.concept .portfolio-review__main {
+    max-width: 564px;
+    padding: 35px 40px 80px 70px;
+}
+.site {
+    position: relative;
+    padding: 225px 0 0 0;
+    margin-bottom: -185px;
+    z-index: 1;
+}
+.site .portfolio-hash {
+    position: absolute;
+    color: #A98D62;
+}
+.site__main {
+    margin-bottom: -160px;
+    position: relative;
+    max-width: 600px;
+    margin-left: 130px;
+    z-index: 1;
+}
+.site__main .portfolio-review {
+    margin-top: 93px;
+    margin-left: 30px;
+}
+
+.site__main .portfolio-review__view {
+    top: -50px;
+    left: -152px;
+}
+.site__main .portfolio-review__main {
+    padding: 36px 95px 77px 70px;
+}
+
+.site__title {
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 75px;
+    color: #4A4A4A;
+    text-transform: uppercase;
+}
+.site__description {
+    margin-top: 22px;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #4A4A4A;
+}
+.site__view {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.site__view img {
+    width: calc(100% + 91px);
+    max-width: 1519px;
+    margin-left: -11px;
+}
+.site__view .portfolio-hash:nth-child(1) {
+    top: 21.5%;
+    left: 27.5%;
+}
+.site__view .portfolio-hash:nth-child(2) {
+    top: 46.5%;
+    left: 4%;
+}
+.result {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.result__video {
+    width: 100%;
+    text-align: center;
+    filter: brightness(40%)
+}
+.result__video video {
+    width: 100%;
+    height: auto;
+}
+.result__main {
+    position: absolute;
+    top: calc(252px);
+    left: 180px;
+    max-width: 580px;
+}
+.result__title {
+    font-family: ProximaNova-Bold, sans-serif;
+    font-size: 75px;
+    letter-spacing: 1.7px;
+    color: #A98D62;
+    text-transform: uppercase;
+}
+.result__description {
+    margin-top: 22px;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
+.result__snopp {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.result__snopp img {
+    margin-top: 20px;
+    margin-right: -160px;
+}
+
+.result__snopp .portfolio-hash {
+    margin-right: -160px;
+    position: relative;
+    display: block;
+    color: #A98D62;
+}

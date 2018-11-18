@@ -1,0 +1,24 @@
+/*@font-face {*/
+    /*font-family: 'Comfortaa-Regular';*/
+    /*font-style: normal;*/
+    /*src: url('../fonts/Comfortaa-Regular.eot'),*/
+    /*url('../fonts/Comfortaa-Regular.woff') format('woff'),*/
+    /*url('../fonts/Comfortaa-Regular.ttf') format("truetype");*/
+/*}*/
+
+
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    font-style: normal;
+    src: url('../fonts/ProximaNova-Bold.eot'),
+    url('../fonts/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    font-style: normal;
+    src: url('../fonts/ProximaNova-Regular.eot'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format("truetype");
+}
